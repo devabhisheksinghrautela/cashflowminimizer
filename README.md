@@ -1,4 +1,4 @@
-# cashflowminimizer
+# CASH FLOW MINIMIZER IN C++
 This is a cash flow minimizer app using C++ 
 
 A cash flow minimizer in C++ is typically a program designed to handle financial operations, particularly the task of reducing or optimizing cash flow. Cash flow refers to the movement of money into and out of a business or individual's account. Optimizing cash flow typically involves reducing expenses, increasing income, or strategically managing the timing of payments and receipts.
