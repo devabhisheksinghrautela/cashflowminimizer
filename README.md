@@ -17,16 +17,16 @@ We can create classes or structures in C++ to represent various financial compon
 <br>
 
 
-Step 2: Explanation of the Code
-Transaction Structure:
+Step 2: Explanation of the Code<br>
+Transaction Structure:<br>
 
-amount: The financial value of the transaction.
-type: Whether it's a "receipt" (income) or "payment" (expense).
-description: A string that can hold a brief description of the transaction.
-CashFlow Class:
-
-addTransaction(): Adds a transaction (either a receipt or payment) to the list.
-calculateNetFlow(): Calculates the total receipts and total payments, then returns the net flow (positive if receipts exceed payments, negative if the reverse).
-minimizeFlow(): This is where the actual minimization logic takes place. If there’s a deficit (negative net flow), the program attempts to reduce the largest payment. If there's a surplus, it tries to increase receipts.
-reducePayments(): Sorts transactions by the largest payments and attempts to reduce one of the largest payments by 25%.
-increaseReceipts(): Increases one of the receipts by 10% to simulate increasing cash flow.
+``amount:`` The financial value of the transaction.<br>
+``type:`` Whether it's a "receipt" (income) or "payment" (expense).<br>
+``description:`` A string that can hold a brief description of the transaction.<br>
+<br>
+CashFlow Class:<br>
+``addTransaction():`` Adds a transaction (either a receipt or payment) to the list.<br>
+``calculateNetFlow():`` Calculates the total receipts and total payments, then returns the net flow.<br>
+``minimizeFlow():`` This is where the actual minimization logic takes place. If there’s a deficit (negative net flow), the program attempts to reduce the largest payment. If there's a surplus, it tries to increase receipts.<br>
+``reducePayments():`` Sorts transactions by the largest payments and attempts to reduce one of the largest payments by 25%.<br>
+``increaseReceipts():`` Increases one of the receipts by 10% to simulate increasing cash flow.<br>
